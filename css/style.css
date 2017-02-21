@@ -167,7 +167,6 @@ img {
   font-size: 16px;
   font-weight: 700;
   margin: 0 0 50px;
-  max-width: 360px;
 }
 .about ul {
   font-weight: 700;
@@ -231,6 +230,7 @@ img {
 }
 .about .features p {
   margin: 0 auto 50px;
+  max-width: 360px;
 }
 .img-block {
   padding: 0;
@@ -681,5 +681,8 @@ img {
     display: block;
     width: auto;
     margin: 0 0 30px 0;
+  }
+  .home .jumbotron h1 {
+    font-size: 50px;
   }
 }
