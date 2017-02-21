@@ -286,6 +286,7 @@ img {
 }
 .portfolio .list-inline li {
   padding: 0 20px;
+  margin-bottom: 20px;
 }
 .portfolio .list-inline li.active a {
   color: #2ecc71;
@@ -671,5 +672,14 @@ img {
   .client-quote .text-block {
     padding-top: 80px;
     padding-bottom: 80px;
+  }
+  .clients {
+    height: auto;
+    padding: 50px 0;
+  }
+  .clients .client {
+    display: block;
+    width: auto;
+    margin: 0 0 30px 0;
   }
 }
